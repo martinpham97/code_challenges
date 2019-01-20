@@ -1,0 +1,237 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /mnt/c/Users/tutin/Desktop/code_challenges/long_addition
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 174
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 17
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 964
+    content: "\e]0;martin@DESKTOP-1GCCINJ: /mnt/c/Users/tutin/Desktop/code_challenges/long_addition\a\e[01;32mmartin@DESKTOP-1GCCINJ\e[00m:\e[01;34m/mnt/c/Users/tutin/Desktop/code_challenges/long_addition\e[00m$ "
+  - delay: 712
+    content: g
+  - delay: 320
+    content: c
+  - delay: 206
+    content: c
+  - delay: 424
+    content: ' '
+  - delay: 736
+    content: l
+  - delay: 180
+    content: o
+  - delay: 232
+    content: 'n'
+  - delay: 123
+    content: g
+  - delay: 451
+    content: _
+  - delay: 281
+    content: a
+  - delay: 284
+    content: d
+  - delay: 188
+    content: d
+  - delay: 189
+    content: i
+  - delay: 237
+    content: t
+  - delay: 83
+    content: i
+  - delay: 96
+    content: o
+  - delay: 203
+    content: 'n'
+  - delay: 516
+    content: .
+  - delay: 205
+    content: c
+  - delay: 246
+    content: ' '
+  - delay: 222
+    content: '-'
+  - delay: 760
+    content: o
+  - delay: 222
+    content: ' '
+  - delay: 294
+    content: l
+  - delay: 147
+    content: o
+  - delay: 208
+    content: 'n'
+  - delay: 95
+    content: g
+  - delay: 287
+    content: _
+  - delay: 241
+    content: a
+  - delay: 91
+    content: d
+  - delay: 159
+    content: d
+  - delay: 138
+    content: i
+  - delay: 231
+    content: t
+  - delay: 123
+    content: i
+  - delay: 105
+    content: o
+  - delay: 222
+    content: 'n'
+  - delay: 346
+    content: "\r\n"
+  - delay: 570
+    content: "\e]0;martin@DESKTOP-1GCCINJ: /mnt/c/Users/tutin/Desktop/code_challenges/long_addition\a\e[01;32mmartin@DESKTOP-1GCCINJ\e[00m:\e[01;34m/mnt/c/Users/tutin/Desktop/code_challenges/long_addition\e[00m$ "
+  - delay: 1010
+    content: .
+  - delay: 252
+    content: /
+  - delay: 586
+    content: l
+  - delay: 172
+    content: o
+  - delay: 210
+    content: 'n'
+  - delay: 115
+    content: g
+  - delay: 280
+    content: _
+  - delay: 241
+    content: a
+  - delay: 78
+    content: d
+  - delay: 176
+    content: d
+  - delay: 170
+    content: i
+  - delay: 246
+    content: t
+  - delay: 164
+    content: i
+  - delay: 90
+    content: o
+  - delay: 273
+    content: 'n'
+  - delay: 379
+    content: "\r\n"
+  - delay: 8
+    content: 'Enter First Number: '
+  - delay: 1637
+    content: >-
+      120327713325784991792435166631243615562956143945078387426227288871662389170558775577300729205681322025604508541317135749695882285551886595144332973411533907455481349546230465370534263171663651487223351570660785664861183485359950439787449022906736377116038455942575137606590348876853605477074881066741054838096330137515878072948689193494373543081892565183090895114763780447850141170726682923269784200293802506405512697427
+  - delay: 1750
+    content: "\r\nEnter Second Number: "
+  - delay: 6211
+    content: >-
+      302163521226970482375161849912812460688379263396489788162427480887554133221040233085943199101886612710252086472055546577326720345621740216987322123273806621191634182619894702254952144468809970072860520132361430706038267401373952491417592298841966687032794648236587241038947747404441154408660466708818168303097069736133104936144095708789187794985497504136649601999335216406640560405705064102872414016383342106240000395824
+  - delay: 1589
+    content: "\r\nResult: 422491234552755474167597016544056076251335407341568175588654769759216522391599008663243928307567934735856595013372682327022602631173626812131655096685340528647115532166125167625486407640473621560083871703022216370899450886733902931205041321748703064148833104179162378645538096281294759885735347775559223141193399873648983009092784902283561338067390069319740497114098996854490701576431747026142198216677144612645513093251\r\n\e]0;martin@DESKTOP-1GCCINJ: /mnt/c/Users/tutin/Desktop/code_challenges/long_addition\a\e[01;32mmartin@DESKTOP-1GCCINJ\e[00m:\e[01;34m/mnt/c/Users/tutin/Desktop/code_challenges/long_addition\e[00m$ "
+  - delay: 2962
+    content: "logout\r\n"
